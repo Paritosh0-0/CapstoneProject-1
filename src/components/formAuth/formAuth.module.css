@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+.formAuth {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formAuth .formAuthWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  font-family: Roboto, sans-serif;
+  gap: 2vmin;
+}
+.formAuth .formAuthWrapper .title {
+  font-size: 6rem;
+  width: 100%;
+  color: #72db73;
+  font-family: "Single Day", cursive;
+}
+.formAuth .formAuthWrapper .subHeading {
+  padding-top: 10px;
+  font-size: 2rem;
+  width: 100%;
+  color: #fff;
+}
+.formAuth .formAuthWrapper .optionsWrapper {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.formAuth .formAuthWrapper .optionsWrapper .options {
+  cursor: pointer;
+}
+.formAuth .formAuthWrapper .optionsWrapper .options:hover {
+  color: #c3ffe8;
+}
+.formAuth .formAuthWrapper .description {
+  text-align: left;
+  font-size: 0.9rem;
+  width: 100%;
+  color: gray;
+}
+.formAuth .formAuthWrapper .description span {
+  font-size: 0.9rem;
+  color: #72db73;
+  cursor: pointer;
+} 
